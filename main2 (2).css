@@ -1,0 +1,36 @@
+body {
+background-image: url(./11.png);    
+    
+     background-size: 100% ;
+     background-repeat: no-repeat;
+     background-position-x: center center;
+   } 
+   .center {
+        color: rgb(194, 197, 4);
+        margin: auto;
+        text-align: center;
+        width: 50%;
+        padding: 10px;
+   }
+   .nam{
+        text-decoration: none;
+        text-align: center;
+        background-color: rgb(165, 84, 9);
+        color: white;
+        padding: 15px 40px;
+        display:inline-block;
+        border-radius: 100px;
+        transition: all .2s;
+        position: relative;
+   } 
+   .nam:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgb(0,0,0,.2);
+        background:rgb(211, 7, 68);
+        border-color: red;
+    }
+    .btn:active{
+        transform: translateY(-2px);
+        box-shadow: 0 5px 10px rgb(0,0,0,.2);
+
+     

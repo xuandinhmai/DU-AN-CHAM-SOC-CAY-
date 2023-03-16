@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <br/>
+  <title>Hệ Thống Tưới Nước Tự Động</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="main2.css">
+  <style>
+    .head{
+    width: 100%; height: 42px; position:fixed;
+}   ul{
+
+}
+}
+</style>
+</head>
+<body>
+    <ul>
+        <div class="head"></div>
+  <h1 href="#" class="center">HỆ THỐNG TƯỚI CÂY TỰ ĐỘNG </h1>
+  <h1 href="#" class="center">=> Điều khiển qua nút nhấn </h1><br/>
+  <h1 href="#" class="center">=> ĐIều khiển qua Web.app </h1><br/>
+  <h1 href="#" class="center">=> Cảnh báo độ ẩm qua điện thoại ( nhắn tin, gọi điện, gửi mail) </h1><br/>
+  <br/>
+  <h1 href="#" class="center"><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1899868/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=30&type=spline&yaxis=Doam"></iframe></h1>
+ 
+  <br/>
+  <div href="#" class = "center">
+    <a id="btn4" href="#" class="nam">CHUYỂN CHẾ ĐỘ</a>
+    <a id="btn3" href="#" class="nam">MENU</a>
+    <a id="btn2" href="#" class="nam">TĂNG</a>
+    <a id="btn1" href="#" class="nam">GIẢM</a>
+  </div>
+  <br/>
+  <h2 href="#" class="center"><span id = "Chuyenchedo"></span ></h2>
+  <br/>
+  <h2 href="#" class="center"><span id = "CdMenu"></span ></h2>
+  <br/>
+  <h2 href="#" class="center">CÁC THÔNG SỐ & TRẠNG THÁI CÀI ĐẶT</h2>
+  <h3 href="#" class="center">ĐỘ ẨM: <span id = "Doam"></span> %</h3>
+  <h3 href="#" class="center">ĐỘ ẨM CÀI ĐẶT: <span id = "Doamcaidat"></span> %     CdDoamcaidat: <span id = "CdDACD"></span> %</h3>
+  <h3 href="#" class="center">1. TẦN SỐ: <span id = "Tanso"></span> (HZ)      CdTanso: <span id = "CdTanso"></span> (HZ)</h3>
+  <h3 href="#" class="center">2. DUTY (Độ rộng xung): <span id = "Duty"></span> %     CdDuty:<span id = "CdDuty"></span> %</h3>
+  <h3 href="#" class="center">3. TIMER: <span id = "Gio"></span>:<span id = "Phut"></span>:<span id = "Giay"></span>      CdTIMER: <span id = "CdGio"></span>:<span id = "CdPhut"></span>:<span id = "CdGiay"></span></h3>
+  <h3 href="#" class="center">4. TRẠNG THÁI: <span id = "Trangthai"></span></h3>
+
+  <ol><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <a href="https://www.rs-online.vn/p/raspberry-pi-3-b-2/1826547/?cm_mmc=VN-PPC-DS3A-_-google-_-3_VN_EN___Phrase-_-Raspberry+Pi+-+1826547+-+Raspberry+Pi+3+Model+B-_-raspberry+pi+3+model+b&matchtype=p&kwd-297700512719&gclid=Cj0KCQjw-JyUBhCuARIsANUqQ_LNHZwUYeFwrE7QNJyhu4WEAReNvSwhEPAqkX-fTxS5u8AZz4UGhe0aAsuSEALw_wcB&gclsrc=aw.ds"><li>PI 3B</li></a><br/>
+    <a href="https://mlab.vn/index.php?_route_=2819041-4g-3g-2g-gsm-gprs-gnss-hat-for-raspberry-pi-lte-cat4-module-sim7600ce.html"><li>SIM7600CE</li></a><br/>
+    <a href="http://arduino.vn/bai-viet/42-arduino-uno-r3-la-gi"><li>KIT ARDUINO UNO R3</li></a><br/>
+    <a href="https://hshop.vn/products/mach-dieu-khien-dong-co-dc-l298"><li>DC L298</li></a><br/>
+    <a href="https://vi.aliexpress.com/item/32806004492.html"><li>Relay 5/12v -10A220v JQC-3FF-S-Z</li></a><br/>
+    <a href="https://linhkien888.vn/lcd-16x4-5v-xanh-duong"><li>Màn hình hiển thị LCD 16x4</li></a><br/>
+    <a href="https://iotmaker.vn/mach-chuyen-doi-i2c-cho-lcd.html"><li>Module giao tiếp I2C với LCD 16x4</li></a><br/>
+  </ol>
+  <audio controls>
+    <source src="1.mp4" type="audio/mp4">
+  </audio>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
